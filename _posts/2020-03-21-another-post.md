@@ -2,12 +2,9 @@
 layout: post
 title: 'Another Post'
 author: Charles
-category: demo
 sub_heading: A post sub_heading
-date: 2020-03-21 04:00:00 +0000
-tags: []
+tags: Demo
 banner_image: "/uploads/pic01.jpg"
-related_posts: []
 
 ---
 Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
