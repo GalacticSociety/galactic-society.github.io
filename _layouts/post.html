@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<style type="text/css" media="screen">
+  #sidebar {
+    display: none;
+  }
+  #footer {
+    text-align: center;
+  }
+</style>
+
+<!-- Main -->
+  <div id="main">
+
+    <!-- Single Post -->
+      <article class="post">
+        <header>
+          <div class="title">
+            <h2><a href="#">{{ page.title }}</a></h2>
+            <p>{{ page.sub_heading }}</p>
+          </div>
+          <div class="meta">
+            <time class="published">{{ page.date | date_to_string }}</time>
+            <a href="#" class="author"><span class="name">{{ page.author }}</span><img src="assets/images/avatar.jpg" alt="" /></a>
+          </div>
+        </header>
+        <span class="image featured"><img src="{{ page.banner_image }}" alt="{{ page.title }}" /></span>
+        <p>{{ page.content }}</p>
+        <footer>
+          <ul class="stats">
+            <li><a href="#">{{ page.category }}</a></li>
+            <li><a href="#" class="icon solid fa-heart">33</a></li>
+            <li><a href="#" class="icon solid fa-comment">7</a></li>
+          </ul>
+        </footer>
+      </article>
+
+      <!-- Footer -->
+      {%- include footer.html -%}
+  </div>

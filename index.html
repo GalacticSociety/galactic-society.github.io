@@ -1,0 +1,39 @@
+---
+layout: default
+title: Welcome Home
+---
+{% comment %}
+  This layout is used to by index.html to display all of documents in
+  the _posts/ collection
+{% endcomment %}
+
+{% for post in site.posts %}
+<!-- Posts -->
+  <article class="post">
+    <header>
+      <div class="title">
+        <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.sub_heading }}</p>
+      </div>
+      <div class="meta">
+        <time class="published">{{ post.date | date_to_string }}</time>
+        <a href="#" class="author"><span class="name">{{ post.author }}</span><img src="assets/images/avatar.jpg" alt="" /></a>
+      </div>
+    </header>
+    <a href="{{ post.url | absolute_url }}" class="image featured"><img src="assets/images/pic01.jpg" alt="" /></a>
+    <p>{{ post.content | truncatewords: 90 }}</p>
+    <footer>
+      <ul class="actions">
+        <li><a href="{{ post.url | absolute_url }}" class="button large">Continue Reading</a></li>
+      </ul>
+      <ul class="stats">
+        <li><a href="#">{{ post.category }}</a></li>
+        <li><a href="#" class="icon solid fa-heart">28</a></li>
+        <li><a href="#" class="icon solid fa-comment">128</a></li>
+      </ul>
+    </footer>
+  </article>
+  {% endfor %}
+
+<!-- Pagination -->
+{%- include pagination.html -%}

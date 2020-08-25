@@ -1,0 +1,51 @@
+{% comment %}
+	The default layout for the site, which is extended by all other layouts.
+	Includes the document <head>, main navigation and sidebar with the footer.
+	The core default Jekyll template that is included on all pages of the
+	website.
+{% endcomment %}
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="is-preload">
+
+		<!-- Wrapper -->
+      <div id="wrapper">
+
+				<!-- Header -->
+        {%- include header.html -%}
+
+				<!-- Popout Sidebar Menu -->
+        {%- include navigation.html -%}
+
+				<!-- Main Content Area -->
+        <main class="page-content" aria-label="Content">
+          <div id="main">
+
+            {% comment %}
+            	Any layout that extends this layout will have its contents
+            	added as the content variable
+            {% endcomment %}
+
+            {{ content }}
+
+          </div>
+        </main>
+
+				<!-- Sidebar -->
+				{%- include sidebar.html -%}
+
+			</div>
+
+        <!-- JS scripts get loaded last for performance boost -->
+        <script src="{{ "/assets/js/jquery.min.js" | relative_url }}"></script>
+				<script src="{{ "/assets/js/browser.min.js" | relative_url }}"></script>
+				<script src="{{ "/assets/js/breakpoints.min.js" | relative_url }}"></script>
+				<script src="{{ "/assets/js/util.js" | relative_url }}"></script>
+				<script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+
+  </body>
+</html>
