@@ -3,11 +3,12 @@ layout: default
 title: Welcome Home
 ---
 {% comment %}
-  This layout is used to by index.html to display all of documents in
-  the _posts/ collection
+  This layout is used by index.html to display max of 7 documents, posts or articles in
+  the _posts/ collection per individual page.
 {% endcomment %}
 
-{% for post in site.posts %}
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
 <!-- Posts -->
   <article class="post">
     <header>
@@ -17,23 +18,23 @@ title: Welcome Home
       </div>
       <div class="meta">
         <time class="published">{{ post.date | date_to_string }}</time>
-        <a href="#" class="author"><span class="name">{{ post.author }}</span><img src="assets/images/avatar.jpg" alt="" /></a>
+        <a href="#" class="author"><span class="name">{{ post.author }}</span><img src="{{ post.avatar }}" alt="{{ post.author }}" /></a>
       </div>
     </header>
-    <a href="{{ post.url | absolute_url }}" class="image featured"><img src="assets/images/pic01.jpg" alt="" /></a>
-    <p>{{ post.content | truncatewords: 75 }}</p>
+    <a href="{{ post.url | absolute_url }}" class="image featured"><img src="{{ post.banner_image }}" alt="{{ post.title }}" /></a>
+    <p>{{ post.content | truncatewords: 50 }}</p>
     <footer>
       <ul class="actions">
         <li><a href="{{ post.url | absolute_url }}" class="button large">Continue Reading</a></li>
       </ul>
       <ul class="stats">
         <li><a href="#">{{ post.tags }}</a></li>
-        <li><a href="#" class="icon solid fa-heart">28</a></li>
-        <li><a href="#" class="icon solid fa-comment">128</a></li>
+        <li><a href="#" class="icon solid fa-heart">144</a></li>
+        <li><a href="#" class="icon solid fa-comment">88</a></li>
       </ul>
     </footer>
   </article>
   {% endfor %}
 
-<!-- Pagination -->
+<!-- Pagination to navigate to another collection of posts -->
 {%- include pagination.html -%}

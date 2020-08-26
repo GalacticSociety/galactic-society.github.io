@@ -1,15 +1,17 @@
 ---
-title: Welcome to the Forestry Demo Site!
-date: 2017-09-25T09:09:13.000+00:00
-related_posts:
-- _posts/2017-02-12-modern.md
-- _posts/2017-08-01-welcome.md
-sub_heading: An introduction to Forestry
+layout: post
+
+author: Charles
+avatar: "/uploads/avatar.jpg"
+
+title: Welcome to the Cosmic Society
+sub_heading: An introduction to the Cosmos
+
+banner_image: "/uploads/pic02.jpg"
+thumbnail_image: "/uploads/pic09.jpg"
 tags:
 - Demo
 - Forestry
-layout: post
-banner_image: ''
 
 ---
 Welcome to the Belkirk College of Engineering Demo Site!

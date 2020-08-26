@@ -1,11 +1,15 @@
 ---
 layout: post
-title: 'Another Post'
-author: Charles
-sub_heading: A post sub_heading
-tags: Demo
-banner_image: "/uploads/pic01.jpg"
 
+author: Charles
+avatar: "/uploads/avatar.jpg"
+
+title: Meditation in the Modern Age
+sub_heading: A post sub_heading for viewing pleasure
+
+banner_image: "/uploads/pic01.jpg"
+thumbnail_image: "/uploads/pic10.jpg"
+tags: Demo
 ---
 Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
 

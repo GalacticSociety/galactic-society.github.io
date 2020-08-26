@@ -4,7 +4,7 @@ layout: post
 author: Dane
 avatar: "/uploads/avatar.jpg"
 
-title: New Research Center
+title: Artistic Creativity with Minimalism
 sub_heading: Integer posuere urna mollis ornare vel eu leo.
 
 banner_image: "/uploads/pic01.jpg"

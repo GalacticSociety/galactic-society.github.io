@@ -1,13 +1,15 @@
 ---
-title: Example Draft
 layout: post
+
 author: Charles
-date: 2018-01-19 00:00:00 +0000
-sub_heading: 'An example of a draft post sub heading'
-banner_image: "/uploads/pic01.jpg"
-category: demo
-tags: []
-related_posts: []
+avatar: "/uploads/avatar.jpg" #Size of avatar_image 36x36
+
+title: Welcome to Galactic Society!
+sub_heading: An introduction to the Galaxy
+
+banner_image: "/uploads/pic03.jpg" #Size of banner_image 840x341
+thumbnail_image: "/uploads/pic09.jpg" #Size of thumbnail_image 52x52
+tags: Demo
 
 ---
 ## What are draft posts?

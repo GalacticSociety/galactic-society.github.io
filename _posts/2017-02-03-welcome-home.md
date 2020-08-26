@@ -4,7 +4,7 @@ layout: post
 author: Dane
 avatar: "/uploads/avatar.jpg"
 
-title: New Industry Partner
+title: Welcome Home YOU
 sub_heading: Maecenas faucibus mollis interdum. Vivamus sagittis lacus
 
 banner_image: "/uploads/pic01.jpg"
