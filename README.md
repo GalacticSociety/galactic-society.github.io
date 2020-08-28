@@ -2,10 +2,10 @@
 Will update summary at a later date.
 
 # Jekyll Plugins
-* Jekyll-Menus
-* Paginate
-* Feed
-* Archives
+  - jekyll-feed
+  - jekyll-menus
+  - jekyll-archives
+  - jekyll-paginate
 
 All Ruby dependencies are created and stored in the Docker container. Simple, smooth and sweet :)
 # Requirements
