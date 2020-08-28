@@ -29,7 +29,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna
   enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
   congue ullam corper.
-baseurl: "/galactic-society.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/galacticsociety.github.io" # the subpath of your site, e.g. /blog
 url: "https://galacticsociety.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: csharpee
 
