@@ -4,8 +4,8 @@ This template is the base template for creating all new templates from. Only cor
 The base template is compatible with Forestry.io + SCSS ready!
 
 # Jekyll Plugins
-* Menus
-* Tagging
+* Jekyll-Menus
+* Paginate
 * Feed
 * Archives
 
