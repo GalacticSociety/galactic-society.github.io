@@ -1,5 +1,5 @@
 # Summary
-Will update summary at a later date.
+We will update summary at a later date.
 
 # Jekyll Plugins
   - jekyll-feed
