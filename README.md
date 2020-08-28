@@ -1,7 +1,5 @@
 # Summary
-This template is the base template for creating all new templates from. Only core functionality is created to expand upon from this base template. Beginning new templates or projects, clone this template.
-
-The base template is compatible with Forestry.io + SCSS ready!
+Will update summary at a later date.
 
 # Jekyll Plugins
 * Jekyll-Menus
