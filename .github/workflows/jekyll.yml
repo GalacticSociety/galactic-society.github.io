@@ -1,4 +1,4 @@
-name: Build and Deploy GH Pages
+name: Build and Deploy GH Pages with Jekyll Actions
 
 on:
   push:
