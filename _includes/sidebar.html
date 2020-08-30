@@ -14,7 +14,9 @@
         <div class="mini-posts">
 
           <!-- Mini Post -->
-          {% for post in site.posts limit:4 %}
+          <h2> Featured Posts </h2>
+          {% assign featured-posts = site.posts | where: "is_featured","1" %}
+          {% for post in featured-posts limit: 4 %}
           <article class="mini-post">
             <header>
               <h3><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h3>
@@ -30,9 +32,9 @@
 
     <!-- Posts List -->
       <section>
+        <h2> Recent Comments </h2>
         <ul class="posts">
-
-          {% for post in site.posts limit:5 %}
+          {% for post in site.posts limit: 5 %}
           <li>
             <article>
               <header>
