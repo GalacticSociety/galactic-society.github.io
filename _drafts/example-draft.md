@@ -1,6 +1,6 @@
 ---
 title: Welcome to Galactic Society!
-date: 2020-10-05 00:05:14.102000000 Z
+date: 2020-10-05 00:05:14 Z
 tags:
 - Demo
 layout: post
