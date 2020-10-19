@@ -1,5 +1,5 @@
 # Summary
-We will update summary at a later date.
+An example of how we are easily able to integrate a blog for any style website, including extra functionality with GitHub Actions that extends support for other types of plugins.
 
 # Jekyll Plugins
   - jekyll-feed
