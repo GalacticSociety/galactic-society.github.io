@@ -1,0 +1,47 @@
+---
+layout: default
+title: Welcome Home
+permalink: /
+
+pagination:
+  enabled: true
+  collection: posts
+---
+{% comment %}
+  This layout is used by index.html to display max of X documents, posts or articles in
+  the _posts/ collection per individual page.
+{% endcomment %}
+
+<!-- This loops through the paginated posts collection posts-->
+{% for post in paginator.posts %}
+
+  <!-- Posts Template -->
+  <article class="post">
+    <header>
+      <div class="title">
+        <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.sub_heading }}</p>
+      </div>
+      <div class="meta">
+        <time class="published">{{ post.date | date_to_string }}</time>
+        <a href="#" class="author"><span class="name">{{ post.author }}</span><img src="{{ post.avatar }}" alt="{{ post.author }}" /></a>
+      </div>
+    </header>
+    <a href="{{ post.url | absolute_url }}" class="image featured"><img src="{{ post.banner_image }}" alt="{{ post.title }}" /></a>
+    <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+    <footer>
+      <ul class="actions">
+        <li><a href="{{ post.url | absolute_url }}" class="button large">Continue Reading</a></li>
+      </ul>
+      <ul class="stats">
+        <li><a href="#">{{ post.tag }}</a></li>
+        <li><a href="#" class="icon solid fa-heart">144</a></li>
+        <li><a href="#" class="icon solid fa-comment">88</a></li>
+      </ul>
+    </footer>
+  </article>
+
+  {% endfor %}
+
+<!-- Pagination to navigate to another collection of posts -->
+{%- include pagination.html -%}
