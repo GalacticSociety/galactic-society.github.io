@@ -1,85 +1,43 @@
-# Welcome to Jekyll 4.0!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
+---
 title: Galactic Society
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: example@galacticsociety.org
 site_admin: Charles
 logo: "/uploads/logo.jpg"
 motto: Cubilia enim adipiscing orci faucibus at Vestibulum
 keywords: Galaxy, Culture, Community, Spacetime
-description: >- # this means to ignore newlines until "baseurl:"
-  Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.
-  Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna
-  enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
-  congue ullam corper.
-baseurl: "/galacticsociety.github.io" # the subpath of your site, e.g. /blog /galacticsociety.github.io
-url: "https://galacticsociety.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: csharpee
-
-permalink: /:categories/:year/:month/:day/:title/ #Built in options include: date, pretty, ordinal, weekdate, none; learn more here: https://jekyllrb.com/docs/permalinks/
+description: Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed
+  mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan
+  tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.
+baseurl: "/galacticsociety.github.io"
+url: https://galacticsociety.github.io
+github_username: example
+permalink: "/:categories/:year/:month/:day/:title/"
 paginate: 3
 paginate_path: "/blog/:num/"
-
-# Author/Organization Payment Information
 paypal_acct: example
 cashapp_acct: example
 dwolla_acct: example
-patreon:  example
+patreon: example
 bitcoin: example
-ethereum:  example
-
-# Author/Organization Social Information
+ethereum: example
 twitter_username: example
-github_username: example
 linkedin_username: example
 instagram_username: example
 facebook_username: example
-
-# Build settings
-# theme: minima
 plugins:
-  - jekyll-feed
-  - jekyll-menus
-  - jekyll-archives
-  - jekyll-paginate
-
+- jekyll-feed
+- jekyll-menus
+- jekyll-archives
+- jekyll-paginate
 sass:
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed
   sass_dir: _scss
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-  exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  exclude: 

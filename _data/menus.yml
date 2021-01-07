@@ -1,18 +1,19 @@
 ---
 header:
-  - url: /
-    title: News
-    identifier: header
-  - url: #
-    title: About
-    identifier: header
-  - url: #
-    title: Projects
-    identifier: header
-  - url: #
-    title: Volunteer
-    identifier: header
-  - url: #
-    title: Donate
-    identifier: header
+- url: "/"
+  title: News
+  identifier: header
+- url: 
+  title: About
+  identifier: header
+- url: 
+  title: Projects
+  identifier: header
+- url: 
+  title: Volunteer
+  identifier: header
+- url: 
+  title: Donate
+  identifier: header
 ---
+
