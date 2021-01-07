@@ -1,4 +1,6 @@
 _site
+Gemfile.lock
 CNAME
 .git
 .jekyll-cache
+.sass-cache
