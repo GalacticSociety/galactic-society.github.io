@@ -15,7 +15,7 @@ All Ruby dependencies are created and stored in the Docker container. Simple, sm
 
 ## Clone, Build & Launch
 1. In local directory for development, ```git clone https://github.com/GalacticSociety/galacticsociety.github.io```
-2. ```cd jekyll```
+2. ```cd galacticsociety.github.io```
 3. ```docker-compose up```
 
 *Happy Hacking! :)*
