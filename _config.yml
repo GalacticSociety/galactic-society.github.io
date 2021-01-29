@@ -26,12 +26,11 @@ lsi: true
 collections_dir: collections
 permalink: "/:categories/:year/:month/:day/:title/"
 plugins:
-  - jekyll-feed #manually generated rss.xml https://jekyllrb.com/tutorials/convert-site-to-jekyll/#10-rss-feed
-  - jekyll-menus
-  - jekyll-archives
-  - jekyll-paginate-v2
-  - jekyll/tagging
-
+- jekyll-feed
+- jekyll-menus
+- jekyll-archives
+- jekyll-paginate-v2
+- jekyll/tagging
 sass:
   style: compressed
   sass_dir: _scss
@@ -46,12 +45,12 @@ pagination:
   sort_field: date
   sort_reverse: true
   category: posts
-  tag:
-  locale:
+  tag: 
+  locale: 
   trail:
     before: 3
     after: 1
   extension: html
   indexpage: index
-  exclude:
-  include:
+  exclude: 
+  include: 
