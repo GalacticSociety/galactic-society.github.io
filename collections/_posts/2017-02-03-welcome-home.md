@@ -1,18 +1,15 @@
 ---
-layout: post
-is_featured: 1 #1 means yes and 0 means no
-
-author: Dane
-avatar: "/uploads/avatar.jpg" #Size of avatar_image 36x36
-
 title: Welcome Home YOU
+layout: post
+is_featured: 1
+author: Dane
+avatar: "/uploads/avatar.jpg"
 sub_heading: Maecenas faucibus mollis interdum. Vivamus sagittis lacus
-
-banner_image: "/uploads/pic01.jpg" #Size of banner_image 840x341
-thumbnail_image: "/uploads/pic09.jpg" #Size of thumbnail_image 52x52
+banner_image: "/uploads/pic01.jpg"
+thumbnail_image: "/uploads/pic09.jpg"
 tag: Partnerships
-
 ---
+
 ## Header Titles
 # H1 HTML title
 
