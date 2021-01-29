@@ -44,8 +44,8 @@ pagination:
   sort_field: date
   sort_reverse: true
   category: posts
-  tag: ''
-  locale: ''
+  tag: 
+  locale: 
   trail:
     before: 3
     after: 1
